@@ -1,0 +1,5 @@
+ul
+- @layer_names.each do|layer|
+	li
+		a href="/psd/preview.png?path=#{params[:path]}&layer=#{layer}" class='btn btn-default'
+			= layer
